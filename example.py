@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 """example.py: This is an example of documenting a Python module.
 
 This part is called a docstring.  It can be multiple lines, or
@@ -19,13 +19,13 @@ import sys
 import os
 import datetime
 
-__author__ = "Bruce Montgomery"
-__copyright__ = "Copyright (C) 2018 by Bruce Montgomery"
+__author__ = "Gunj Manseta"
+__copyright__ = "Copyright (C) 2018 by Gunj Manseta"
 #
 # Redistribution, modification or use of this software in source or binary
 # forms is permitted as long as the files maintain this copyright. Users are
 # permitted to modify this and use it to learn about the field of embedded
-# software. Bruce Montgomery and the University of Colorado
+# software. Gunj Manseta and the University of Colorado
 # are not liable for any misuse of this material.
 #
 
@@ -45,7 +45,7 @@ class Dog(object):
 def walker(name):
     """walker: an example of a python function"""
     dog1 = Dog(name)
-    dog1.add_trick("Roll Over")
+    dog1.add_trick("Play Dead")
     print("Walking a new dog:")
     print("  The kind of this thing is ",dog1.kind)
     print("  This dog is ",dog1.name)
